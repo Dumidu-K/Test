@@ -55,7 +55,7 @@ namespace test
                     while (reader.Read())
                     {
                         Console.WriteLine($"Id: {reader["Id"]}, Name: {reader["Name"]}");
-                        ss.Text = reader["Name"].ToString();
+                        //ss.Text = reader["Name"].ToString();
                     }
                 }
             }
